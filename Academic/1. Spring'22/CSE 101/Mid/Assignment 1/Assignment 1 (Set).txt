@@ -1,0 +1,5 @@
+Solve the following problems from Rosen Book for practice purposes and submit the solutions as an assignment in this folder. 
+Page 125: 2, 10, 32 (c)
+Page 136: 2, 4, 25, 32, 52 
+You must have to submit a pdf file that contains your name and ID no.
+Deadline: 11.59PM, 9th March 2022
