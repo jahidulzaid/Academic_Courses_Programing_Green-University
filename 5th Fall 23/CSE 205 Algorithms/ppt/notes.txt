@@ -1,0 +1,30 @@
+What is an A* Algorithm?
+It is a searching algorithm that is used to find the shortest path between an initial and a final point.
+
+It is a handy map traversal algorithm that is used for pathfinding and also to find the shortest path to be taken. A* was designed as a graph traversal problem, to help build a robot that can find its own course. It still remains a widely popular algorithm for graph traversal.
+
+Why A* Algo?
+A* Search Algorithm is a simple and efficient search algorithm that can be used to find the optimal path between two nodes in a graph. Originally, It is an extension of Dijkstra’s Algorithm.  The extension here is that, instead of using a priority queue to store all the elements, we use heaps (binary trees) to store them.
+it also use a heuristic function. This function provides information about how far the goal node is.
+
+Application
+The A* algorithm is widely used in various domains for pathfinding and optimization problems. It has applications in robotics, video games, route planning, logistics, and artificial intelligence. In robotics, A* helps robots navigate obstacles and find optimal paths. In video games, it enables NPCs to navigate game environments intelligently. Route planning applications use A* to find the shortest or fastest routes between locations. Logistics industries utilize A* for vehicle routing and scheduling. A* is also employed in AI systems, such as natural language processing and machine learning, to optimize decision-making processes. Its versatility and efficiency make it a valuable algorithm in many real-world scenarios.
+
+explanation
+
+
+f(n) = total estimated cost of path through node n
+
+g(n) = cost so far to reach node n
+
+h(n) = estimated cost from n to goal. This is the heuristic part of the cost function, so it is like a guess.
+
+A* algorithm begins at the start (red node),  and considers all adjacent cells.  it filters out  inaccessible  alls, obstacles.
+It then picks the cell with the lowest cost,  hich is the estimated f(n). This process is recursively repeated until the shortest path has been found to the target (blue node). The computation of f(n) is done via a heuristic  this usually gives short result.
+
+
+Complexity
+
+The time complexity of A* depends on the heuristic.  In the worst case, the number of nodes expanded is exponential
+
+The space complexity of A* is roughly the same as that of all other graph search algorithms, as it keeps all generated nodes in memory.
