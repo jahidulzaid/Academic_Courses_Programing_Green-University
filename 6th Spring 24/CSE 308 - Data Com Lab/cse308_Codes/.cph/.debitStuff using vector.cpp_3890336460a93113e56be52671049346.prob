@@ -1,0 +1,1 @@
+{"name":"Local: debitStuff using vector","url":"f:\\cp resources\\cf\\cse210\\debitStuff using vector.cpp","tests":[{"id":1709452531027,"input":"000111110111000000111","output":"00011111111000000111"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\cp resources\\cf\\cse210\\debitStuff using vector.cpp","group":"local","local":true}
