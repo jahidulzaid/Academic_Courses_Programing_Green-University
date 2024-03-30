@@ -1,0 +1,1 @@
+{"name":"Local: ip_binToDec","url":"f:\\cp resources\\cf\\cse308\\labMan1\\ip_binToDec.cpp","tests":[{"id":1710538995275,"input":"0.168.1.0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\cp resources\\cf\\cse308\\labMan1\\ip_binToDec.cpp","group":"local","local":true}
